@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jory Palgan - Jory Palgan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #18112b 0%, #232946 100%);
+      color: #f4f4f4;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #181f2b;
+      border-bottom: 3px solid #00ffe7;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      letter-spacing: 2px;
+      color: #00ffe7;
+      margin: 0;
+      text-shadow: 0 2px 8px #00ffe799;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      background: #232946;
+      padding: 0.7em 0;
+      border-bottom: 2px solid #00ffe7;
+    }
+
+    nav a {
+      color: #00ffe7;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 1.5em;
+      background: #232946cc;
+      border-radius: 16px;
+      box-shadow: 0 0 24px #00ffe733;
+    }
+
+    .section-title {
+      font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #00ffe7;
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    /* Style for the group photo frame with image */
+    .jory-pic {
+      width: 100%;
+      max-width: 600px;
+      height: 340px;
+      margin: 2em auto 1em auto;
+      background: #1b1f30;
+      border: 4px dashed #00ffe7;
+      border-radius: 12px;
+      box-shadow: 0 0 24px #00ffe733;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Make the image smaller and centered */
+    .jory-pic img {
+      width: 400px; /* Minimized width */
+      height: 380px; /* Maintain aspect ratio */
+      object-fit: contain;
+    }
+
+    /* About Me content styling */
+    .about-me {
+      margin: 2em 0;
+      font-size: 1.2em;
+      line-height: 1.5;
+      text-align: center;
+    }
+
+    /* Style for the back button link */
+    .cta-link {
+      display: block;
+      margin: 2.5em auto 0 auto;
+      background: #00ffe7;
+      color: #181f2b;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 0.8em 2em;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 2px 12px #00ffe799;
+      transition: background 0.2s, color 0.2s;
+      letter-spacing: 1px;
+      width: fit-content;
+    }
+
+    .cta-link:hover {
+      background: #181f2b;
+      color: #00ffe7;
+      border: 2px solid #00ffe7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5em 0 1em 0;
+      background: #181f2b;
+      border-top: 2px solid #00ffe7;
+      font-size: 1em;
+      color: #00ffe7;
+      margin-top: 2em;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        padding: 0.7em;
+      }
+      .jory-pic {
+        height: 450px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="gear">⚙️</span>
+    <h1>Jory Palgan</h1>
+  </header>
+
+  <nav>
+    <a href="Boys at the back.html">Home</a>
+  </nav>
+
+  <main>
+    <!-- Replace 'Andrey.jpg' with your actual image path -->
+    <div class="jory-pic">
+      <img src="jory.jpg" alt="Group Photo" />
+    </div>
+
+    <!-- About Me Section -->
+    <div class="section-title">About Me</div>
+    <div class="about-me">
+      <b>Age:</b> 20<br><br>
+      <b>Hobbies:</b> Playing basketball, coding, listening to music<br><br>
+      <b>Personal Description:</b> Passionate about technology and always eager to learn new skills. I love collaborating with others and taking on new challenges to grow both personally and professionally.
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 BOYS AT THE BACK
+  </footer>
+</body>
+</html>

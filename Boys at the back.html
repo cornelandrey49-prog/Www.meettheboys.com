@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BOYS AT THE BACK</title>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #181f2b 0%, #232946 100%);
+      color: #f4f4f4;
+      min-height: 100vh;
+    }
+    header {
+      background: #181f2b;
+      border-bottom: 3px solid #00ffe7;
+      text-align: center;
+      padding: 2rem 1rem 1rem 1rem;
+    }
+    header h1 {
+      font-size: 2.8em;
+      letter-spacing: 2px;
+      color: #00ffe7;
+      margin: 0;
+      text-shadow: 0 2px 8px #00ffe799;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #232946;
+      padding: 0.7em 0;
+      border-bottom: 2px solid #00ffe7;
+    }
+    nav a {
+      color: #00ffe7;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 1.5em;
+      background: #232946cc;
+      border-radius: 16px;
+      box-shadow: 0 0 24px #00ffe733;
+      text-align: center;
+    }
+    .logo-space {
+      margin: 3em auto;
+      width: 240px;
+      height: 240px;
+      border: 3px dashed #00ffe7;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2em;
+      color: #00ffe7;
+      background-color: #181f2b;
+      overflow: hidden; /* ensure image fits well */
+    }
+    .logo-space img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 50%;
+      object-fit: cover; /* maintain aspect ratio and cover container */
+    }
+    .cta-link {
+      display: block;
+      margin: 2em auto;
+      background: #00ffe7;
+      color: #181f2b;
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 0.8em 2.5em;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 2px 12px #00ffe799;
+      transition: background 0.2s, color 0.2s;
+      letter-spacing: 1px;
+    }
+    .cta-link:hover {
+      background: #181f2b;
+      color: #00ffe7;
+      border: 2px solid #00ffe7;
+    }
+    .section-title {
+      font-size: 1.5em;
+      color: #00ffe7;
+      margin-bottom: 0.5em;
+      letter-spacing: 1px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5em 0 1em 0;
+      background: #181f2b;
+      border-top: 2px solid #00ffe7;
+      font-size: 1em;
+      color: #00ffe7;
+      margin-top: 2em;
+    }
+    @media (max-width: 700px) {
+      .logo-space {
+        width: 140px;
+        height: 140px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="gear">⚙️</span>
+    <h1>BOYS AT THE BACK</h1>
+  </header>
+  <nav>
+    <a href="mailto:cornelandrey49@gmail.com?subject=Report%20an%20Issue">Contact Us</a>
+  </nav>
+  <main>
+    <div class="logo-space">
+      <img src="burnok.jpg" alt="Boys At The Back Logo" />
+    </div>
+
+    <section id="about-us">
+      <h2 class="section-title">About Us</h2>
+      <p style="margin-bottom: 2em;">
+        We are a group of passionate IT students who love creating tech-based solutions, learning cutting-edge tools, and having fun while coding at the back of the classroom. 👨‍💻👾
+      </p>
+    </section>
+
+    <a href="Meet the boys.html" class="cta-link">MEET THE BOYS</a>
+  </main>
+
+  <footer>
+    &copy; 2025 BOYS AT THE BACK 
+  </footer>
+</body>
+</html>

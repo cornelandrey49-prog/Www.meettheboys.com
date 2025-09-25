@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meet the Boys - BOYS AT THE BACK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #18112b 0%, #232946 100%);
+      color: #f4f4f4;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #181f2b;
+      border-bottom: 3px solid #00ffe7;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      letter-spacing: 2px;
+      color: #00ffe7;
+      margin: 0;
+      text-shadow: 0 2px 8px #00ffe799;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      background: #232946;
+      padding: 0.7em 0;
+      border-bottom: 2px solid #00ffe7;
+    }
+
+    nav a {
+      color: #00ffe7;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 1.5em;
+      background: #232946cc;
+      border-radius: 16px;
+      box-shadow: 0 0 24px #00ffe733;
+    }
+
+    .section-title {
+      font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #00ffe7;
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    /* Style for the group photo frame with image */
+    .group-pic {
+      width: 100%;
+      max-width: 600px;
+      height: 340px;
+      margin: 2em auto 1em auto;
+      background: #1b1f30;
+      border: 4px dashed #00ffe7;
+      border-radius: 12px;
+      box-shadow: 0 0 24px #00ffe733;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Make the image cover the frame */
+    .group-pic img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Ensures the image covers the frame without distortion */
+    }
+
+    /* Other styles remain unchanged */
+
+    .names-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+      margin: 2em 0;
+    }
+
+    .names-list a {
+      color: #00ffe7;
+      font-size: 1.2em;
+      text-decoration: underline;
+      font-weight: bold;
+      transition: color 0.2s;
+    }
+
+    .names-list a:hover {
+      color: #fff;
+    }
+
+    .cta-link {
+      display: block;
+      margin: 2.5em auto 0 auto;
+      background: #00ffe7;
+      color: #181f2b;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 0.8em 2em;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 2px 12px #00ffe799;
+      transition: background 0.2s, color 0.2s;
+      letter-spacing: 1px;
+      width: fit-content;
+    }
+
+    .cta-link:hover {
+      background: #181f2b;
+      color: #00ffe7;
+      border: 2px solid #00ffe7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5em 0 1em 0;
+      background: #181f2b;
+      border-top: 2px solid #00ffe7;
+      font-size: 1em;
+      color: #00ffe7;
+      margin-top: 2em;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        padding: 0.7em;
+      }
+
+      .group-pic {
+        height: 200px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="gear">⚙️</span>
+    <h1>THE BOYS</h1>
+  </header>
+
+  <nav>
+    <a href="Boys at the back.html">Home</a>
+  </nav>
+
+  <main>
+    <!-- Replace 'your-group-photo.jpg' with the path to your actual group photo -->
+    <div class="group-pic">
+      <img src="heart.jpg" alt="Group Photo" />
+    </div>
+
+    <!-- Removed the JPG attachment button as per your request -->
+
+    <div class="section-title">Our Goal</div>
+    <div style="text-align:center; margin-bottom:2em;">
+      We are a group of passionate IT students aiming to innovate, collaborate, and make a mark in the tech world. <br>
+      Our mission: <b>Become top IT professionals and inspire others!</b>
+    </div>
+
+    <div class="section-title">Meet the Team</div>
+    <div class="names-list">
+      <a href="Andrey.html">Andrey Cornel</a>
+      <a href="jory.html">Jory Palgan</a>
+      <a href="ariel_agustin.html">Ariel Agustin</a>
+      <a href="jessemar_ahaha.html">Jessemar AHAHA</a>
+      <a href="christina_haha.html">CHRISTINA HAHA</a>
+    </div>
+
+   
+  </main>
+
+  <footer>
+    &copy; 2025 BOYS AT THE BACK 
+  </footer>
+</body>
+</html>
